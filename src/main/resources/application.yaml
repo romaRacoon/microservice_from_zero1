@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5444/cats-api
+    username: root
+    password: admin
+  flyway:
+    locations: classpath:src/main/resources/db/migration/
